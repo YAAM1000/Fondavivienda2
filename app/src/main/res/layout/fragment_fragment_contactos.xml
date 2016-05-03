@@ -1,0 +1,253 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.fondavivienda.fondav.fondavivienda.Fragment_contactos">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="361dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|top">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:id="@+id/aprendiz_sena"
+                    android:background="@mipmap/amigosafondoopcdos"
+                    android:layout_row="3"
+                    android:layout_column="0"
+                    android:layout_gravity="left|center_vertical" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Aprendiz Sena Ext: 50090"
+                    android:textSize="20dp"
+                    android:textStyle="normal"
+                    android:textIsSelectable="false"
+                    android:textAlignment="center"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:id="@+id/analista_i"
+                    android:background="@mipmap/amigosafondoopcdos"
+                    android:layout_row="3"
+                    android:layout_column="0"
+                    android:layout_gravity="left|center_vertical" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Analista I: Ext:50089"
+                    android:textSize="20dp"
+                    android:textStyle="normal"
+                    android:textAlignment="center"/>
+            </TableRow>
+            <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:id="@+id/analista_ii"
+                android:background="@mipmap/amigosafondoopcdos"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:layout_gravity="left|center_vertical" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Analista I: Ext:50088"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                android:textAlignment="center"/>
+        </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:id="@+id/analista_iii"
+                    android:background="@mipmap/amigosafondoopcdos"
+                    android:layout_row="3"
+                    android:layout_column="0"
+                    android:layout_gravity="left|center_vertical" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Analista II: Ext:50087"
+                    android:textSize="20dp"
+                    android:textStyle="normal"
+                    android:textAlignment="center"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:id="@+id/analista_iv"
+                    android:background="@mipmap/amigosafondoopcdos"
+                    android:layout_row="3"
+                    android:layout_column="0"
+                    android:layout_gravity="left|center_vertical" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Analista II: Ext:50086"
+                    android:textSize="20dp"
+                    android:textStyle="normal"
+                    android:textAlignment="center"/>
+            </TableRow>
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_width="64dp"
+                        android:layout_height="64dp"
+                        android:id="@+id/analista_v"
+                        android:background="@mipmap/amigosafondoopcdos"
+                        android:layout_row="3"
+                        android:layout_column="0"
+                        android:layout_gravity="left|center_vertical" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Analista III: Ext:50086"
+                        android:textSize="20dp"
+                        android:textStyle="normal"
+                        android:textAlignment="center"/>
+            </TableRow>
+            <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:id="@+id/analista_vi"
+                android:background="@mipmap/amigosafondoopcdos"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:layout_gravity="left|center_vertical" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Analista III: Ext:50064"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                android:textAlignment="center"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:id="@+id/profecional_i"
+                    android:background="@mipmap/amigosafondoopcdos"
+                    android:layout_row="3"
+                    android:layout_column="0"
+                    android:layout_gravity="left|center_vertical" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Profecional I: Ext:50085"
+                    android:textSize="20dp"
+                    android:textStyle="normal"
+                    android:textAlignment="center"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:id="@+id/profecional_ii"
+                    android:background="@mipmap/amigosafondoopcdos"
+                    android:layout_row="3"
+                    android:layout_column="0"
+                    android:layout_gravity="left|center_vertical" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Profecional II: Ext:50083"
+                    android:textSize="20dp"
+                    android:textStyle="normal"
+                    android:textAlignment="center"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:id="@+id/coordinadorf"
+                    android:background="@mipmap/amigosafondoopcdos"
+                    android:layout_row="3"
+                    android:layout_column="0"
+                    android:layout_gravity="left|center_vertical" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Coord. Financiero: Ext:50081"
+                    android:textSize="20dp"
+                    android:textStyle="normal"
+                    android:textAlignment="center"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:id="@+id/coordinadorc"
+                    android:background="@mipmap/amigosafondoopcdos"
+                    android:layout_row="3"
+                    android:layout_column="0"
+                    android:layout_gravity="left|center_vertical" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Coord. Comercial: Ext:50082"
+                    android:textSize="20dp"
+                    android:textStyle="normal"
+                    android:textAlignment="center"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:id="@+id/gerente"
+                    android:background="@mipmap/amigosafondoopcdos"
+                    android:layout_row="3"
+                    android:layout_column="0"
+                    android:layout_gravity="left|center_vertical" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Gerente: Ext:50080"
+                    android:textSize="20dp"
+                    android:textStyle="normal"
+                    android:textAlignment="center"/>
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+
+
+</FrameLayout>

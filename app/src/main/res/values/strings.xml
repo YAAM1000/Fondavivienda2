@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Fondavivienda APP</string>
+
+    <string name="dummy_button">Bienvenido</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main_activity_principal">Fondavivienda APP</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_activity_novedades">MainActivityNovedades</string>
+    <string name="title_activity_main_activity_novedad">MainActivityNovedad</string>
+    <string name="title_activity_main_activity_novedad_09">MainActivity_novedad_09</string>
+    <string name="title_activity_main_activity_novdades_10">MainActivity_novdades_10</string>
+</resources>

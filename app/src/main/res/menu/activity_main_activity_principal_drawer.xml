@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/homeopcdos"
+            android:title="Home" />
+        <item
+        android:id="@+id/nav_novdades"
+        android:icon="@mipmap/nov"
+        android:title="Novedades" />
+        <item
+            android:id="@+id/nav_alianzas"
+            android:icon="@mipmap/alianzasopcdos"
+            android:title="Alianzas" />
+        <item
+            android:id="@+id/nav_jardines"
+            android:icon="@mipmap/jardepazopc"
+            android:title="Jardines de Paz" />
+        <item
+            android:id="@+id/nav_amigos"
+            android:icon="@mipmap/amigosafondoopcdos"
+            android:title="Amigos a Fondo" />
+        <item
+            android:id="@+id/nav_clasificados"
+            android:icon="@mipmap/clasificadosopcdos"
+            android:title="Clasificados" />
+        <!--<item-->
+            <!--android:id="@+id/nav_manage"-->
+            <!--android:icon="@drawable/ic_menu_manage"-->
+            <!--android:title="Herramientas" />-->
+    </group>
+
+    <item android:title="Contactenos">
+        <menu>
+            <item
+                android:id="@+id/nav_phone"
+                android:icon="@mipmap/telefono"
+                android:title="Contactos" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Facebook" />
+
+
+        </menu>
+    </item>
+
+</menu>
